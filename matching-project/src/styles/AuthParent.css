@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, #genderID{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+    border: 2px solid red;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUp-form-container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
